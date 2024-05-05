@@ -11,79 +11,38 @@ Helps convert the value of one type of currency to another that the user chooses
 - [Herramientas Utilizadas](#badges-o-escudos)
 - [Descripción y contexto](#descripción-y-contexto)
 - [Guía de usuario](#guía-de-usuario)
-- [Guía de instalación](#guía-de-instalación)
-- [Cómo contribuir](#cómo-contribuir)
-- [Código de conducta](#código-de-conducta)
 - [Autor/es](#autores)
 - [Información adicional](#información-adicional)
 
-## Badges o escudos
+## Herramientas para el Desarrollo
 ---
-Es común en muchos repositorios open source el uso de badges o escudos para dar visbilidad el uso de microservicios, licencias, descargas, etc. Recomendamos revisar la iniciativa https://shields.io/ donde según consideres necesario podrás generar badges para tu repo. 
+Se desarrolo con Java, mediante el JDK17 a continuacion se nombra la libreria externa utilizada
+### Librerias Utilizadas
 
-### Ejemplos de badges
-
-- code coverage percentage: ![coverage](https://img.shields.io/badge/coverage-80%25-yellowgreen)
-- stable release version: ![version](https://img.shields.io/badge/version-1.2.3-blue)
-- package manager release: ![gem](https://img.shields.io/badge/gem-2.2.0-blue)
-- status of third-party dependencies: ![dependencies](https://img.shields.io/badge/dependencies-out%20of%20date-orange)
-- static code analysis grade: ![codacy](https://img.shields.io/badge/codacy-B-green)
-- [SemVer](https://semver.org/) version observance: ![semver](https://img.shields.io/badge/semver-2.0.0-blue)
-- amount of [Liberapay](https://liberapay.com/) donations per week: ![receives](https://img.shields.io/badge/receives-2.00%20USD%2Fweek-yellow)
-- Python package downloads: ![downloads](https://img.shields.io/badge/downloads-13k%2Fmonth-brightgreen)
-- Chrome Web Store extension rating: ![rating](https://img.shields.io/badge/rating-★★★★☆-brightgreen)
-- [Uptime Robot](https://uptimerobot.com) percentage: ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
-
-### Badges que solicitamos:
----
-En la iniciativa Código para el Desarrollo solicitamos a los equipos que suman sus herramientas al catálogo de sumar el badge generado por el uso del microservicio de evaluación estática de código SonarCloud.
-
-El badge se ve así y redirige al reporte de evaluación estática del último commit de la herramienta:
-
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=EL-BID_Plantilla-de-repositorio&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=EL-BID_Plantilla-de-repositorio)
+- [Gson](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.10.1), que nos ayuddo con el manejo de los json: : ![version](https://img.shields.io/badge/version-2.10.1-blue)
+- [java.net.http](https://docs.oracle.com/en/java/javase/17/docs/api/java.net.http/java/net/http/package-summary.html), para la conexión con la AP: ![gem](https://img.shields.io/badge/gem-2.0-blue)
 
 
 ## Descripción y contexto
 ---
-Esto es un archivo README. Debe contener la documentación de soporte uso de la herramienta digital. Las siguientes secciones son las secciones recomendadas que debes poner incluir en cualquier herramienta digital. Puedes descargar este archivo para que te sirva como plantilla.
-
-Asegúrate de empezar este archivo con una breve descripción sobre las funcionalidades y contexto de la herramienta digital. Sé conciso y al grano.
+El proyecto es consecuencia de la solucion de un challenge de una formación como Backend con Java y Spring Framework, para este proyecto se el consumo de la API de ExchangeRate-API, que nos ayuda a convertir el valor de los diferentes tipo de cambio monetario 
 
 ## Guía de usuario
 ---
-Explica los pasos básicos sobre cómo usar la herramienta digital. Es una buena sección para mostrar capturas de pantalla o gifs que ayuden a entender la herramienta digital.
- 	
-## Guía de instalación
----
-Paso a paso de cómo instalar la herramienta digital. En esta sección es recomendable explicar la arquitectura de carpetas y módulos que componen el sistema.
+1) Ejecutamos la aplicacion desde la herramienta que IDE que desees en este caso se utilizo Intellij-IDE, y se nos desplegará un menú como el siguiente, en este debemos de seleccionar la opcion que necesitemos de manera numerica, es decir si queremos hacer el cambio de Dóla-> Peso Argentino, tecleamos en consola 1
+<p align="center"><img src="/src/com/ernestdev/assets/Screen_Interface.png"></p> 
 
-Según el tipo de herramienta digital, el nivel de complejidad puede variar. En algunas ocasiones puede ser necesario instalar componentes que tienen dependencia con la herramienta digital. Si este es el caso, añade también la siguiente sección.
+3) Despues nos solicitará el monto que deseas convertir, este debe de ser numerico ya sea de tipo entero o bolean.
+<p align="center"><img src="/src/com/ernestdev/assets/Screen_value.png"></p> 
 
-La guía de instalación debe contener de manera específica:
-- Los requisitos del sistema operativo para la compilación (versiones específicas de librerías, software de gestión de paquetes y dependencias, SDKs y compiladores, etc.).
-- Las dependencias propias del proyecto, tanto externas como internas (orden de compilación de sub-módulos, configuración de ubicación de librerías dinámicas, etc.).
-- Pasos específicos para la compilación del código fuente y ejecución de tests unitarios en caso de que el proyecto disponga de ellos.
-
-### Dependencias
-Descripción de los recursos externos que generan una dependencia para la reutilización de la herramienta digital (librerías, frameworks, acceso a bases de datos y licencias de cada recurso). Es una buena práctica describir las últimas versiones en las que ha sido probada la herramienta digital. 
-
-    Puedes usar este estilo de letra diferenciar los comandos de instalación.
-
-## Cómo contribuir
----
-Esta sección explica a desarrolladores cuáles son las maneras habituales de enviar una solicitud de adhesión de nuevo código (“pull requests”), cómo declarar fallos en la herramienta y qué guías de estilo se deben usar al escribir más líneas de código. También puedes hacer un listado de puntos que se pueden mejorar de tu código para crear ideas de mejora.
-
-## Código de conducta 
----
-El código de conducta establece las normas sociales, reglas y responsabilidades que los individuos y organizaciones deben seguir al interactuar de alguna manera con la herramienta digital o su comunidad. Es una buena práctica para crear un ambiente de respeto e inclusión en las contribuciones al proyecto. 
-
-La plataforma Github premia y ayuda a los repositorios dispongan de este archivo. Al crear CODE_OF_CONDUCT.md puedes empezar desde una plantilla sugerida por ellos. Puedes leer más sobre cómo crear un archivo de Código de Conducta (aquí)[https://help.github.com/articles/adding-a-code-of-conduct-to-your-project/]
+4) Al finalizar te arrojará el monto convertido al tipo que elejiste.
+<p align="center"><img src="/src/com/ernestdev/assets/Screen_Result.png"></p> 
 
 ## Autor/es
 ---
-Nombra a el/los autor/es original/es. Consulta con ellos antes de publicar un email o un nombre personal. Una manera muy común es dirigirlos a sus cuentas de redes sociales.
+Ernesto Becerril, estudiante de ultimo semestre de la Ingeniería en Tecnologías de la Información y Comunicación
 
-## Información adicional
----
-Esta es la sección que permite agregar más información de contexto al proyecto como alguna web de relevancia, proyectos similares o que hayan usado la misma tecnología.
+<img src="/src/com/ernestdev/assets/linkedin.svg" width="16px">[  Perfil de Linkedin](www.linkedin.com/in/ernesto-becerril-dominguez)
+
+<img src="/src/com/ernestdev/assets/globe-solid.svg" width="16px">[  Portafolio](https://ernestdev.netlify.app/)
 
