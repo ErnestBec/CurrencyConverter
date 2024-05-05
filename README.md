@@ -12,7 +12,6 @@ Helps convert the value of one type of currency to another that the user chooses
 - [Descripción y contexto](#descripción-y-contexto)
 - [Guía de usuario](#guía-de-usuario)
 - [Autor/es](#autores)
-- [Información adicional](#información-adicional)
 
 ## Herramientas para el Desarrollo
 ---
