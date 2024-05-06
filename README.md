@@ -19,7 +19,7 @@ Se desarrolo con Java, mediante el JDK17 a continuacion se nombra la libreria ex
 ### Librerias Utilizadas
 
 - [Gson](https://mvnrepository.com/artifact/com.google.code.gson/gson/2.10.1), que nos ayuddo con el manejo de los json: : ![version](https://img.shields.io/badge/version-2.10.1-blue)
-- [java.net.http](https://docs.oracle.com/en/java/javase/17/docs/api/java.net.http/java/net/http/package-summary.html), para la conexión con la API: ![version](https://img.shields.io/badge/gem-2.0-blue)
+- [java.net.http](https://docs.oracle.com/en/java/javase/17/docs/api/java.net.http/java/net/http/package-summary.html), para la conexión con la API: ![version](https://img.shields.io/badge/version-2.0-blue)
 
 
 ## Descripción y contexto
